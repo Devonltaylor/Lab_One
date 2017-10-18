@@ -1,0 +1,134 @@
+
+/**************
+    General
+***************/
+
+body {
+  background-color: #f9fafc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal, 800;
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 80px;
+}
+
+div#logo {
+    float: left;
+}
+
+p.ex {
+    float: left;
+    height: 120px;
+    width: 650px;
+    border-left: 6px solid #69696a;
+    margin: 0 0 10px 10px;
+    padding:  20px 20px;
+}
+
+
+
+/**************
+    Nav Bar
+***************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: ;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+
+
+
+/**************
+Link Hovering
+***************/
+
+/*
+li a:hover {
+    background-color: #efefef;
+    color: black;
+    border-radius: 50px;
+}
+*/
+.active {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+
+
+/**************
+    Shapes
+***************/
+
+.circleA {
+    position: absolute;
+    top: 300px;
+    right: 175px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+}
+
+.circleB {
+    position: absolute;
+    top: 430px;
+    right: 75px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+    float: right;
+}
+
+.circleC {
+    position: absolute;
+    top: 320px;
+    right: 75px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+    float: right;
+}
+
+
+
+
+/**************
+    Button
+***************/
+
+.btn {
+  position: absolute;
+  top: 700px;
+  right: 700px;
+  background: #000;
+  border-radius: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #FFF;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 20px 20px
+}
